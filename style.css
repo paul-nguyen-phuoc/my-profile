@@ -1,0 +1,130 @@
+/* Colorand fonts */
+
+body {
+
+	background: rgb(230, 230, 230);
+	color: blacc;
+	font-family: Helvetica;
+	font-size: 16px;
+
+}
+
+h1 {
+
+	color: purple;
+	font-family: "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+
+h2 {
+
+  font-size: 2rem;          
+  line-height: 1.5;         
+  letter-spacing: 0.05em;   
+
+}
+
+h3 {
+
+  font-size: 1.5rem; 
+  line-height: 1.4;  
+  letter-spacing: 0.05em; 
+
+}
+
+
+a {
+
+  color: #3366cc; 
+  text-decoration: none; 
+
+}
+
+
+a:hover {
+
+  color: #ff6600; 
+  text-decoration: underline; 
+
+}
+
+#profile {
+
+	width: 200px;
+
+}
+
+.img-circle {
+
+	border-radius: 40px;
+
+}
+
+.container {
+
+	width: 650px;
+	margin: 40px auto;
+
+}
+
+.card-white {
+
+	background-color: rgb(230, 230, 230, 1.0);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	text-align: center;
+
+}
+
+
+.btn-red {
+
+  background-color: #ff0000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 16px;
+  border-radius: 60px;
+
+}
+
+
+.btn-red:hover {
+
+  background-color: #cc0000; 
+  color: #fff; 
+
+}
+
+#basketball p {
+
+	margin-bottom: 40px;
+
+}
+
+@media (max-width: 760px) {
+
+	.container {
+
+		width: 460px;
+
+	}
+
+	@media (max-width: 500px) {
+
+	.container {
+
+		width: 400px;
+
+	}
+
+
+}
+
+
